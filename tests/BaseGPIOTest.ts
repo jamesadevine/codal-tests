@@ -22,12 +22,12 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 */
 
-function set_gpio(pin_number: number, state: number) {
-    pins.A0.analogWrite(state)
+function set_gpio(pin_number: number, state: boolean) {
+    pins.A0.digitalWrite(state)
 }
 
 while (true) {
-    set_gpio(0,1);
-    set_gpio(0,0);
+    set_gpio(0,true);
+    set_gpio(0,false);
 }
 

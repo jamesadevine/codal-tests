@@ -24,20 +24,20 @@ DEALINGS IN THE SOFTWARE.
 
 
 
-function set_gpio(state: number) {
-    pins.A1.analogWrite(state)
+function set_gpio(pin_number: number, state: boolean) {
+    pins.A0.digitalWrite(state)
 }
 
 function high() {
     while (1) {
-        set_gpio(1);
+        set_gpio(true);
         loops.pause(0);
     }
 }
 
 function low() {
     while (1) {
-        set_gpio(0);
+        set_gpio(false);
         loops.pause(0);
     }
 }
