@@ -22,7 +22,6 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 */
 
-
 const FACTORIAL_N = 11
 const THREADS_N = 4
 let completionCount = 0;
@@ -50,7 +49,7 @@ function factorial_fiber() {
 
 serial.writeLine("HELLO");
 
-// device_heap_print();
+control.deviceHeapPrint();
 
 for (let i = 0; i < THREADS_N; i++)
     control.runInBackground(factorial_fiber);
@@ -59,7 +58,7 @@ while (completionCount != THREADS_N) {
     loops.pause(10)
 }
 
-// device_heap_print();
+control.deviceHeapPrint();
 
 completionCount = 0;
 
@@ -70,9 +69,10 @@ while (completionCount != THREADS_N) {
     loops.pause(10)
 }
 
-//device_heap_print();
+control.deviceHeapPrint();
 
 serial.writeLine("OUT LAST")
 
 while (true) { }
+
 
