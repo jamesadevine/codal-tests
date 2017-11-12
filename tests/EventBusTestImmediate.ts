@@ -25,8 +25,8 @@ DEALINGS IN THE SOFTWARE.
 const MESSAGEBUS_ID = 5000
 const MESSAGEBUS_VALUE = 5000
 
-function set_gpio(pin_number: number, state: boolean) {
-    pins.A0.digitalWrite(state)
+function set_gpio(state: boolean) {
+    pins.A1.digitalWrite(state)
 }
 
 function event_handler()
@@ -34,12 +34,12 @@ function event_handler()
     set_gpio(false);
 }
 
-control.onEvent(MESSAGEBUS_ID, MESSAGEBUS_VALUE, event_handler, 
+control.onEvent(MESSAGEBUS_ID, MESSAGEBUS_VALUE, event_handler,
     DAL.MESSAGE_BUS_LISTENER_IMMEDIATE);
 
 while (true) {
     set_gpio(true);
-    control.raiseEvent(MESSAGEBUS_ID, MESSAGEBUS_VALUE)    
+    control.raiseEvent(MESSAGEBUS_ID, MESSAGEBUS_VALUE)
     loops.pause(10)
 }
 

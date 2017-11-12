@@ -24,28 +24,30 @@ DEALINGS IN THE SOFTWARE.
 
 
 
-function set_gpio(pin_number: number, state: boolean) {
-    pins.A0.digitalWrite(state)
+function set_gpio(state: boolean) {
+    pins.A1.digitalWrite(state)
 }
 
 function high() {
     while (1) {
         set_gpio(true);
-        loops.pause(0);
+        control.spinScheduler();
     }
 }
 
 function low() {
     while (1) {
         set_gpio(false);
-        loops.pause(0);
+        control.spinScheduler();
     }
 }
 
-set_gpio(0);
+set_gpio(false);
 
 control.runInBackground(high)
 control.runInBackground(low)
+
+control.releaseFiber();
 
 
 
