@@ -1,0 +1,125 @@
+00026048 00000002 W system_board_init
+00022512 00000002 W mbed_main
+00022548 00000018 W mbed_die
+00022568 00000010 W error
+00026048 00000002 W _system_events_init
+00026048 00000002 W _system_divas_init
+         w __register_frame_info
+         w __register_exitproc
+         w __deregister_frame_info
+00022504 00000008 W __cxa_pure_virtual
+         w __call_exitprocs
+00043868 00000002 W __aeabi_ldiv0
+00043868 00000002 W __aeabi_idiv0
+00009056 00000016 W non-virtual thunk to codal::CircuitPlayground::~CircuitPlayground()
+00009272 00000016 W non-virtual thunk to codal::CircuitPlayground::~CircuitPlayground()
+00031396 00000016 W non-virtual thunk to codal::mbed::Serial::~Serial()
+00031492 00000016 W non-virtual thunk to codal::mbed::Serial::~Serial()
+00034948 00000042 W CThunk<mbed::I2C>::trampoline(mbed::I2C*, void*, void (mbed::I2C::**)(void*))
+00035552 00000042 W CThunk<mbed::SerialBase>::trampoline(mbed::SerialBase*, void*, void (mbed::SerialBase::**)(void*))
+00017676 00000116 W codal::Listener::Listener<codal::MessageBus>(unsigned short, unsigned short, codal::MessageBus*, void (codal::MessageBus::*)(codal::Event), unsigned short)
+00017676 00000116 W codal::Listener::Listener<codal::MessageBus>(unsigned short, unsigned short, codal::MessageBus*, void (codal::MessageBus::*)(codal::Event), unsigned short)
+00008688 00000020 W codal::Serial::readUntil(codal::ManagedString, codal::SerialMode)
+00008484 00000008 W codal::Serial::sendChar(char, codal::SerialMode)
+00008532 00000008 W codal::Serial::redirect(PinName, PinName)
+00008644 00000008 W codal::Serial::txInUse()
+00008636 00000008 W codal::Serial::rxInUse()
+00008548 00000008 W codal::Serial::eventOn(codal::ManagedString, codal::SerialMode)
+00008652 00000008 W codal::Serial::detach(codal::SerialInterruptType)
+00008500 00000008 W codal::Serial::send(unsigned char*, int, codal::SerialMode)
+00008492 00000008 W codal::Serial::send(codal::ManagedString, codal::SerialMode)
+00008708 00000020 W codal::Serial::read(int, codal::SerialMode)
+00008516 00000008 W codal::Serial::read(unsigned char*, int, codal::SerialMode)
+00008508 00000008 W codal::Serial::read(codal::SerialMode)
+00008524 00000008 W codal::Serial::baud(int)
+00008580 00000008 W codal::Serial::setTxBufferSize(unsigned char)
+00008572 00000008 W codal::Serial::setRxBufferSize(unsigned char)
+00008596 00000008 W codal::Serial::getTxBufferSize()
+00008588 00000008 W codal::Serial::getRxBufferSize()
+00008628 00000008 W codal::Serial::txBufferedSize()
+00008620 00000008 W codal::Serial::rxBufferedSize()
+00008612 00000008 W codal::Serial::clearTxBuffer()
+00008604 00000008 W codal::Serial::clearRxBuffer()
+00008564 00000008 W codal::Serial::isWriteable()
+00008556 00000008 W codal::Serial::isReadable()
+00008540 00000008 W codal::Serial::eventAfter(int, codal::SerialMode)
+00031376 00000020 W codal::mbed::Serial::~Serial()
+00031376 00000020 W codal::mbed::Serial::~Serial()
+00031464 00000028 W codal::mbed::Serial::~Serial()
+00029620 00000008 W codal::Pin::drainPin()
+00015636 00000008 W codal::Pin::setPull(codal::PullMode)
+00029612 00000008 W codal::Pin::setAnalogPeriodUs(unsigned long)
+00029604 00000008 W codal::Pin::setServoPulseUs(unsigned long)
+00015628 00000008 W codal::Pin::getDigitalValue()
+00015028 00000008 W codal::Pin::getAnalogValue()
+00009344 00000052 W void codal::MemberFunctionCallback::methodCall<codal::CircuitPlayground>(void*, unsigned long*, codal::Event)
+00015112 00000052 W void codal::MemberFunctionCallback::methodCall<codal::AnalogSensor>(void*, unsigned long*, codal::Event)
+00018104 00000052 W void codal::MemberFunctionCallback::methodCall<codal::MultiButton>(void*, unsigned long*, codal::Event)
+00016636 00000052 W void codal::MemberFunctionCallback::methodCall<codal::MessageBus>(void*, unsigned long*, codal::Event)
+00019156 00000024 W codal::NonLinearAnalogSensor::~NonLinearAnalogSensor()
+00019156 00000024 W codal::NonLinearAnalogSensor::~NonLinearAnalogSensor()
+00019180 00000028 W codal::NonLinearAnalogSensor::~NonLinearAnalogSensor()
+00008860 00000196 W codal::CircuitPlayground::~CircuitPlayground()
+00008860 00000196 W codal::CircuitPlayground::~CircuitPlayground()
+00009072 00000200 W codal::CircuitPlayground::~CircuitPlayground()
+00008728 00000024 W codal::CodalComponent::~CodalComponent()
+00008728 00000024 W codal::CodalComponent::~CodalComponent()
+00008752 00000032 W codal::CodalComponent::~CodalComponent()
+00008468 00000008 W codal::CodalComponent::init()
+00008476 00000002 W codal::CodalComponent::periodicCallback()
+00008480 00000002 W codal::CodalComponent::idleCallback()
+00018156 00000024 W codal::MultiButton::~MultiButton()
+00018156 00000024 W codal::MultiButton::~MultiButton()
+00018180 00000028 W codal::MultiButton::~MultiButton()
+00009336 00000008 W codal::CodalDevice::reset()
+00009312 00000010 W codal::CodalDevice::panic(int)
+00009324 00000010 W codal::CodalDevice::wait(unsigned long)
+00009296 00000004 W codal::CodalDevice::getSerialNumber()
+00009300 00000006 W codal::CodalDevice::seedRandom(unsigned long)
+00009288 00000008 W codal::CodalDevice::getVersion()
+00011724 00000008 W codal::EventModel::remove(codal::Listener*)
+00018796 00000212 W int codal::EventModel::listen<codal::MultiButton>(unsigned short, unsigned short, codal::MultiButton*, void (codal::MultiButton::*)(codal::Event), unsigned short)
+00016600 00000012 W codal::EventModel::send(codal::Event)
+00010768 00000008 W codal::EventModel::add(codal::Listener*)
+00008660 00000002 W mbed::RawSerial::~RawSerial()
+00008660 00000002 W mbed::RawSerial::~RawSerial()
+00008676 00000012 W mbed::RawSerial::~RawSerial()
+00035856 00000028 W mbed::Timeout::~Timeout()
+00035856 00000028 W mbed::Timeout::~Timeout()
+00035884 00000032 W mbed::Timeout::~Timeout()
+00022272 00000036 W mbed::Ticker::~Ticker()
+00022272 00000036 W mbed::Ticker::~Ticker()
+00022308 00000040 W mbed::Ticker::~Ticker()
+00031252 00000030 W void mbed::FunctionPointerArg1<void, void>::membercaller<codal::mbed::Serial>(void*, unsigned int*)
+00034560 00000030 W void mbed::FunctionPointerArg1<void, void>::membercaller<codal::mbed::Timer>(void*, unsigned int*)
+00029716 00000030 W void mbed::FunctionPointerArg1<void, void>::membercaller<codal::mbed::Pin>(void*, unsigned int*)
+00008464 00000002 W mbed::SerialBase::~SerialBase()
+00008464 00000002 W mbed::SerialBase::~SerialBase()
+00008664 00000012 W mbed::SerialBase::~SerialBase()
+00034468 00000020 W TimedInterruptIn::~TimedInterruptIn()
+00034468 00000020 W TimedInterruptIn::~TimedInterruptIn()
+00034488 00000028 W TimedInterruptIn::~TimedInterruptIn()
+         w _Jv_RegisterClasses
+00022892 00000002 W WDT_Handler
+00022892 00000002 W USB_Handler
+00022892 00000002 W TCC2_Handler
+00022892 00000002 W TCC1_Handler
+00022892 00000002 W TCC0_Handler
+00022892 00000002 W TC7_Handler
+00022892 00000002 W TC6_Handler
+00022892 00000002 W SysTick_Handler
+00022892 00000002 W SYSCTRL_Handler
+00022892 00000002 W SVC_Handler
+00022892 00000002 W RTC_Handler
+00022892 00000002 W PendSV_Handler
+00022892 00000002 W PTC_Handler
+00022892 00000002 W PM_Handler
+00022892 00000002 W NVMCTRL_Handler
+00022892 00000002 W NMI_Handler
+00022892 00000002 W I2S_Handler
+00022892 00000002 W HardFault_Handler
+00022892 00000002 W EVSYS_Handler
+00022892 00000002 W DMAC_Handler
+00022892 00000002 W DAC_Handler
+00022892 00000002 W ADC_Handler
+00022892 00000002 W AC_Handler

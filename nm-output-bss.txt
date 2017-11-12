@@ -1,0 +1,60 @@
+536874080 00000028 B us_ticker_module
+536873832 00000004 b us_ticker_inited
+536873828 00000004 B stdio_uart_inited
+536874008 00000072 B stdio_uart
+536873800 00000024 b serial_irq_ids
+536871224 b object.8507
+536873824 00000004 b irq_handler
+536873876 00000004 b irq_handler
+536874003 00000001 b init_flag.13721
+536873944 00000024 b i2c_instances
+536873999 00000001 B heap_count
+536873772 00000008 B heap
+536874000 00000001 B g_sys_init
+536873792 00000008 b events
+536874216 00000004 B errno
+536874001 00000001 b cpu_irq_prev_interrupt_state
+536873840 00000004 b cpu_irq_critical_section_counter
+536872584 00000004 B cplay_device_instance
+536871248 00001336 B cplay
+536871220 b completed.8502
+536872708 00001028 B codalLogStore
+536873880 00000064 b channel_ids
+536874120 00000008 B adc_instance
+536874108 00000012 B _tc_instances
+536871220 B _szero
+536873844 00000024 b _system_clock_inst
+536895488 B _sstack
+536873968 00000024 b _sercom_interrupt_handlers
+536874192 00000024 B _sercom_instances
+536873836 00000002 b _sercom_config
+536870912 B _sdvectors
+536871220 B _sbss
+536874004 00000001 b _handler_table_initialized
+536874220 B _ezero
+536874128 00000064 B _extint_dev
+00061596 B _etext
+536903680 B _estack
+536871092 B _edvectors
+536874220 B _ebss
+536874220 B __end__
+536873998 00000001 b malloc::initialised
+536873768 00000004 b codal::waitQueue
+536873760 00000004 b codal::idleFiber
+536873752 00000004 b codal::fiberPool
+536873748 00000004 b codal::runQueue
+536873740 00000004 b codal::forkedFiber
+536873997 00000001 b codal::fiber_flags
+536873756 00000004 b codal::sleepQueue
+536873764 00000004 b codal::messageBus
+536873868 00000004 B codal::Serial::baudrate
+536874002 00000001 B codal::Serial::status
+536873996 00000001 B codal::CodalComponent::configuration
+536872588 00000120 B codal::CodalComponent::components
+536873788 00000004 B codal::ManagedString::EmptyString
+536873780 00000004 B codal::system_timer
+536873744 00000004 B codal::currentFiber
+536873784 00000004 B codal::EventModel::defaultEventBus
+536873872 00000004 B mbed::I2C::_owner
+536873992 00000004 b (anonymous namespace)::__new_handler
+536873736 00000004 b dmesg_flush_fn

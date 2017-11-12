@@ -1,0 +1,9 @@
+536871116 00000096 d impure_data
+536871216 00000001 D g_interrupt_enabled
+536871100 00000016 D ext_int_pins
+536871096 00000004 D codal_heap_start
+536871092 D _srelocate
+536871212 00000004 D _impure_ptr
+536871220 D _erelocate
+536871217 00000001 D __fdlib_version
+536871092 D __dso_handle
